@@ -29,7 +29,7 @@ NestJS was chosen for the following reasons:
 1. **Clone the repository**:
    ```bash
    git clone <repository-url>
-   cd fintech-nestjs
+   cd fintech-task
    ```
 
 2. **Install dependencies**:
