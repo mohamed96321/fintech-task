@@ -42,7 +42,7 @@ NestJS was chosen for the following reasons:
    cp .env.example .env
    ```
 
-   > **Tip**: Please we should replace MONGO_URI in .env file with actually the atlas cloud MONGO_URI to make acid work correct, this loaclhost `{MONGO_URI=mongodb://localhost:27017/fintech-task}` not work to make session and startTransaction work in MongoDB
+   > **Tip**: Please we should replace MONGO_URI in .env file with actually the atlas cloud MONGO_URI to make acid work correct, this loaclhost `{MONGO_URI=mongodb://localhost:27017/fintech-task}` not work to make session and startTransaction work in MongoDB, we want make replicaSet=rs0 to works, we can run it with docker
 
 4. **Run the application**:
 
