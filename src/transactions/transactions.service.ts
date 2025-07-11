@@ -35,7 +35,7 @@ export class TransactionsService {
       }
 
       const tx = await this.txModel.create([dto], { session });
-
+s
       await session.commitTransaction();
       return tx[0];
     } catch (error) {
